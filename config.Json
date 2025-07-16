@@ -1,0 +1,20 @@
+{
+  "thresholds": {
+    "pinch_threshold": 0.3,
+    "frame_count": 4,
+    "rotate_threshold": 20.0,
+    "swipe_threshold": 0.01
+  },
+  "custom_gestures": {
+    "CUSTOM_1": {
+      "finger_state": 3,
+      "action": "pyautogui.hotkey('ctrl', 't')",
+      "description": "Open new browser tab"
+    },
+    "CUSTOM_2": {
+      "finger_state": 5,
+      "action": "pyautogui.hotkey('alt', 'f4')",
+      "description": "Close active window"
+    }
+  }
+}
